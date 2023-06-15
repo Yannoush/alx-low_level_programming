@@ -1,2 +1,2 @@
 #!/bin/bash
-CFILEE=main.c  gcc -E $CFLIE -o outpout.c
+ gcc -E $CFLIE >> c
