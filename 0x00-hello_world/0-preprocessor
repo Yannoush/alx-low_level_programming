@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E $CFLIE -o c
+export CFILEE=main.c  gcc -E $CFLIE -o outpout.c
