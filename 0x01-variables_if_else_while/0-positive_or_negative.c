@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /*
- * main - Entry point
+ * main - main block
  * The output of the program should be:
  * The number, followed by
  * if the number is greater than 0: is positive
@@ -17,10 +17,10 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	if (n > 0) {
+	if (n>0) {
 		printf("%i is positive\n",n);
 	}
-				else (n < 0){
+				else (n<0){
 					printf("%i is negative\n",n);
 				}
 				else if {
