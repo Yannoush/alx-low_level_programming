@@ -1,7 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-
 /**
  * main - main block
  * The output of the program should be:
@@ -20,7 +19,7 @@ int main(void)
 	if (n>0) {
 		printf("%i is positive\n", n);
 	}
-				else if  (n<0){
+				else if  (n<0) {
 					printf("%i is negative\n", n);
 				}
 				else {
