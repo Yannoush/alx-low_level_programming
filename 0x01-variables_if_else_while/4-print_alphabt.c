@@ -4,6 +4,7 @@
  * main - main block
  * print alphabet except
  * q and e
+ * Return: 0
  */
 int main(void)
 {
