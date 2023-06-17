@@ -16,6 +16,6 @@ int main(void)
 	do {
 		putchar(c);
 	}while ( c != '9');
-	putchar('$\n');
+	putchar('$''/''\n');
 	return (0);
 }
