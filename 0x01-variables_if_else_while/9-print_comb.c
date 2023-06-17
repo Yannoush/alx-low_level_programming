@@ -15,8 +15,8 @@ int main(void)
 		if (c !=9)
 		{
 			putchar(c);
+			c++
 		}
-		c++
 	}
 	putchar('\n');
 	return (0);
