@@ -24,9 +24,9 @@ int main(void)
 					putchar(' ');
 				}
 			}
-			c++;
+			a++;
 		}
-		d++;
+		b++;
 	}
 	putchar('\n');
 	return (0);
