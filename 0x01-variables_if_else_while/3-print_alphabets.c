@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - main block
- * we supposed to create a function who print alphabet in lowercase and thn in uppercase
+ * we supposed to create a function who print alphabet in lowercase and in uppercase
  * Return: 0
  */
 int main(void)
@@ -15,12 +15,12 @@ int main(void)
 			c++;
 		}
 		c = 'A';
-
-	       while (c <= 'Z')
+		
+		while (c <= 'Z')
 	       {
-		putchar (c);
-		c++;
+		       putchar (c);
+		       c++;
 	       }
-		putchar('\n');
-	return 0;
+	       putchar('\n');
+	       return 0;
 }
