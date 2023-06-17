@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 /**
  * main - main block
  * we must print all digit number
@@ -8,9 +9,13 @@
  */
 int main(void)
 {
-	int digit = '10';
+	char c = '0';
 
-	if (digit <= 10)
-		printf( c ; c++)
-			return (0);
+	while (c <= '9')
+	{
+		puchar(c);
+		c++
+	}
+	putchar('\n');
+	return (0);
 }
