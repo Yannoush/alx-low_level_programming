@@ -7,7 +7,7 @@
  * the string is, followed by
  * if the last digit of n is greater than 5: the string and is greater than 5
  * if the last digit of n is 0: the string and is 0
- * */
+ */
 int main(void)
 {
 	int n;
@@ -18,10 +18,10 @@ int main(void)
 	last = n % 10;
 
 	if (last > 5)
-		printf("the last digit of %i is %i and is greater than 5\n", n, last);
+		printf("Last digit of %i is %i and is greater than 5\n", n, last);
 	else if (last == 0)
-		printf("the last digit of %i is %i and is 0\n", n, last);
+		printf("Last digit of %i is %i and is 0\n", n, last);
 	else if (last < 6)
-		printf("the last digit of %i is %i and less than 6 and noot 0\n", n, last);
+		printf("Last digit of %i is %i and less than 6 and noot 0\n", n, last);
 	return (0);
 }
