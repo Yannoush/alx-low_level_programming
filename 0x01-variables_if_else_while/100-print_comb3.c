@@ -2,7 +2,7 @@
 #include <stdlib.h>
 /**
  * main - main block
- * print number by pair 
+ * print number by pair
  */
 int main(void)
 {
@@ -14,7 +14,7 @@ int main(void)
 		a = 0;
 		while (a < 10)
 		{
-			if (b != a  && b < a)
+			if (b != a && b < a)
 			{
 				putchar('0' + b);
 				putchar('0' + a);
