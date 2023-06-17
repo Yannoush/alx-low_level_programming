@@ -8,15 +8,15 @@
 int main(void)
 {
 	int c;
-	for (c = '0'; c <= '9'; c++,',')
+	for (c = '0'; c <= '9'; c++)
 	{
 		putchar(c);
+		putchar(',')
 	}
-	while (c != '9')
-	{
+	do {
 		putchar(c);
 		putchar('$');
-	}
+	}while ( c != '9')
 	putchar('\n');
 	return (0);
 }
