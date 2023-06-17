@@ -16,7 +16,7 @@ int main(void)
 	do {
 		putchar(c);
 		putchar('$');
-	}while ( c != '9')
+	}while ( c != '9');
 	putchar('\n');
 	return (0);
 }
