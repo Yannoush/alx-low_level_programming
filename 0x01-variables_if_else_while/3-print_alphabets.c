@@ -2,7 +2,8 @@
 #include <stdlib.h>
 /**
  * main - main block
- * we supposed to create a function who print alphabet in lowercase and in uppercase
+ * we supposed to create a function who print
+ * alphabet in lowercase and in uppercase
  * Return: 0
  */
 int main(void)
@@ -14,13 +15,14 @@ int main(void)
 			putchar(c);
 			c++;
 		}
+
 		c = 'A';
 		
 		while (c <= 'Z')
-	       {
+		{
 		       putchar (c);
 		       c++;
-	       }
-	       putchar('\n');
-	       return 0;
+		}
+		putchar('\n');
+		return 0;
 }
