@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main -main block
- * we must print alphabet in reverse 
- * Return: 0
+ *main -main block
+ *we must print alphabet in reverse
+ *Return: 0
  */
 int main(void)
 {
