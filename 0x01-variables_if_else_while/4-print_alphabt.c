@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+/**
+ * main - main block
+ * print alphabet except
+ * q and e
+ */
+int main(void)
+{
+	char c = 'a';
+
+	while (c <= 'z')
+	{
+		if(c !=e && !=q)
+		{
+			putchar(c);
+			c++;
+		}
+		putchar('\n');
+		return (0);
+	}
+}
