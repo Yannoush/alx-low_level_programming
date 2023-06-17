@@ -3,7 +3,8 @@
 #include <stdio.h>
 /**
  * main - main block
- * he output of the program should be:The string Last digit of, followed by n, followed by
+ * compare random number and check it last digit
+ * Return: 0
  */
 int main(void)
 {
@@ -20,5 +21,6 @@ int main(void)
 		printf("Last digit of %i is %i and is 0\n", n, last);
 	else if (last < 6)
 		printf("Last digit of %i is %i and is less than 6 and not 0\n", n, last);
+
 	return (0);
 }
