@@ -3,7 +3,7 @@
 /**
 *main - main block
 *print out number and letter
-*Return 0
+*Return: 0
 */
 int main(void)
 {
