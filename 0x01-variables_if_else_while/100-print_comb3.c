@@ -3,6 +3,7 @@
 /**
  * main - main block
  * print number by pair
+ * Return: 0
  */
 int main(void)
 {
