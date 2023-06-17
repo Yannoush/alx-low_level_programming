@@ -10,8 +10,11 @@ int main(void)
 	int c;
 	for (c = 0; c < 10; c++)
 	{
-		putchar(c + 1);
+		putchar(c);
+		if ( n != 9)
+
 		putchar(',');
+		puctchar(' ')
 	}
 	putchar('\n');
 	return (0);
