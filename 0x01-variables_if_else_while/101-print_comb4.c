@@ -13,7 +13,7 @@ int main(void)
 	while (c <=9)
 	{
 		a = 0; b = 1;
-		if (a != b; && b < a)
+		if (a != b && b < a)
 		{
 			putchar(48 + c);
 			putchar(48 + b);
