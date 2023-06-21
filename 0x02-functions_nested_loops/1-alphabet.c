@@ -1,8 +1,11 @@
 #include "main.h"
 /**
- * main - check the code
- * we print lettre in lowercase
- * Return: Always 0.
+ *print_alphabet - Prints the lowercase
+ *alphabet followed by a new line.
+ *
+ *Description: Prints to the terminal all
+ *the lowercase characters from 'a'
+ *to 'z', followed by a newline character.
  */
 void print_alphabet(void)
 {
