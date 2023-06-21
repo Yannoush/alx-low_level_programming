@@ -1,0 +1,33 @@
+
+wned by: vagrant   dated: Tue Jun 20 18:42:47 2023
+         file name: ~vagrant/alx-low_level_programming/0x02-functions_nested_loops/2-print_alphabet_x10.c
+          modified: YES
+         user name: vagrant   host name: ubuntu-focal
+        process ID: 291743 (STILL RUNNING)
+While opening file "2-print_alphabet_x10.c"
+      CANNOT BE FOUND
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r 2-print_alphabet_x10.c"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".2-print_alphabet_x10.c.swp"
+    to avoid this message.
+vim -r Found a swap file by the name ".2-print_alphabet_x10.c.swp"
+          owned by: vagrant   dated: Tue Jun 20 18:42:47 2023
+         file name: ~vagrant/alx-low_level_programming/0x02-functions_nested_loops/2-print_alphabet_x10.c
+          modified: YES
+         user name: vagrant   host name: ubuntu-focal
+        process ID: 291743 (STILL RUNNING)
+While opening file "2-print_alphabet_x10.c"
+      CANNOT BE FOUND
+(1) Another program may be editing the same file.  If this is the case,
+    be careful not to end up with two different instances of the same
+    file when making changes.  Quit, or continue with caution.
+(2) An edit session for this file crashed.
+    If this is the case, use ":recover" or "vim -r 2-print_alphabet_x10.c"
+    to recover the changes (see ":help recovery").
+    If you did this already, delete the swap file ".2-print_alphabet_x10.c.swp"
+    to avoid this message.
+
