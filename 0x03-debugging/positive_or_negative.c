@@ -2,17 +2,16 @@
 
 void positive_or_negative(int i)
 {
-	if (n > 0)
+	if (i > 0)
 	{
-		printf("%i is positive\n", n);
+		printf("%i is positive\n", i);
 	}
-	else if (n < 0)
+	else if (i < 0)
 	{
-		printf("%i is negative\n", n);
+		printf("%i is negative\n", i);
 	}
 	else
 	{
-		printf("%i is zero\n", n);
+		printf("%i is zero\n", i);
 	}
-	return (0);
 }
