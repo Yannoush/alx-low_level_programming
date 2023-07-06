@@ -15,11 +15,10 @@ int is_prime_number(int n)
 		return (0);
 	return (actual_prime(n, n - 1));
 }
-
 /**
- * is_prime_number - checks if a number is prime recursively
- * @n: the number to check
- * @i: the potential factor to divide @n
+ * actual_prime - recursively checks if number is prime
+ * @n: the number to check for primality
+ * @i: a factor of the number to check
  *
  * Return: 1 if n is prime, 0 otherwise
  */
