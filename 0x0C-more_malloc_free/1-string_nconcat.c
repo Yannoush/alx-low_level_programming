@@ -17,7 +17,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	while (s1 && s1[x])
 		x++;
 
-	while (s1 && s1[y])
+	while (s2 && s2[y])
 		y++;
 
 	if (n < y)
