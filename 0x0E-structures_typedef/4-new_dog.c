@@ -2,16 +2,20 @@
 #include <stdlib.h>
 
 /**
- * _strlen - returns the lenght of the string
- * @s: string to evaluate
+ * _strlen - Calcule la longueur
+ * d'une chaîne de caractères.
+ * @s: Chaîne de caractères dont la
+ * longueur doit être calculée.
  *
- * Retrun:the lenght of the string
+ * Return: Le nombre de caractères dans la chaîne,
+ * excluant le caractère de fin de chaîne \0.
  */
 int _strlen(char *s)
 {
 	int i;
+
 	i = 0;
-	
+
 	while (s[i] != '\0')
 	{
 		i++;
@@ -31,12 +35,12 @@ int _strlen(char *s)
 char *_strcpy(char *dest, char *src)
 {
 	int lenght, i;
-	
+
 	lenght = 0;
 
-	while(src[lenght] != '\0')
+	while (src[lenght] != '\0')
 	{
-		lenght ++;
+		lenght++;
 	}
 
 	for (i = 0; i < lenght; i++)
@@ -65,26 +69,26 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	dog = malloc(sizeof(dog_t));
 	if (dog == NULL)
-	       return (NULL);
-dog->name = malloc(sizeof(char) * (lenght_1 + 1));
-if (dog->name == NULL)
-{
+		return (NULL);
+	dog->name = malloc(sizeof(char) * (lenght_1 + 1));
+	if (dog->name == NULL)
+	{
 
-	free(dog);
-	return (NULL);
-}
+		free(dog);
+		return (NULL);
+	}
 
-dog->owner = malloc(sizeof(char) * (lenght_2 + 1));
-if (dog->owner == NULL)
-{
+	dog->owner = malloc(sizeof(char) * (lenght_2 + 1));
+	if (dog->owner == NULL)
+	{
 
-        free(dog);
-	free(dog->name);
-        return (NULL);
-}
-_strcpy(dog->name,name);
-_strcpy(dog->owner, owner);
-dog->age = age;
+		free(dog);
+		free(dog->name);
+		return (NULL);
+	}
+	_strcpy(dog->name, name);
+	_strcpy(dog->owner, owner);
+	dog->age = age;
 
-return (dog);
+	return (dog);
 }
