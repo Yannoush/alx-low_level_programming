@@ -44,7 +44,7 @@ int _strlen(char *s)
 void errors(void)
 {
 	printf("Error\n");
-	exi(98);
+	exit(98);
 }
 /**
  * main - multiplies two positive numbers
@@ -65,7 +65,7 @@ int main(int argc, char *argv[])
 	lon1 = _strlen(s1);
 	lon2 = _strlen(s2);
 	lon3 = lon1 + lon2 + 1;
-	result = malloc(sizeof(int) * len);
+	result = malloc(sizeof(int) * lon3);
 
 	if (!result)
 		return (1);
@@ -81,7 +81,7 @@ int main(int argc, char *argv[])
 		for (lon2 = _strlen(s2) - 1; lon2 >= 0; lon2--)
 		{
 			digist1 = s2[lon2] - '0';
-			carry += result[lon1 + len2 + 1] + (digist * digist1);
+			carry += result[lon1 + lon2 + 1] + (digist * digist1);
 			result[lon1 + lon2 + 1] = carry % 10;
 			carry /= 10;
 		}
@@ -90,7 +90,7 @@ int main(int argc, char *argv[])
 			result[lon1 + lon2 + 1] += carry;
 	}
 
-	for (i = 0; i < lon - 1; i++)
+	for (i = 0; i < lon3 - 1; i++)
 	{
 		if (result[i])
 			a = 1;
@@ -100,7 +100,7 @@ int main(int argc, char *argv[])
 
 	if (!a)
 		_putchar ('0');
-	_putchar ('\n);
+	_putchar ('\n');
 	free(result);
 	return (0);
 }
