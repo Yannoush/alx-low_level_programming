@@ -15,7 +15,7 @@ int main(void)
 
 	size_t n;
 
-i	head = &hello;
+	head = &hello;
 	new = malloc(sizeof(listint_t));
 
 	if (new == NULL)
