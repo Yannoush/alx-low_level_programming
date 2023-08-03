@@ -2,14 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - main block
- * The output of the program should be:
- * The number, followed by
- * if the number is greater than 0: is positive
- * if the number is 0: is zero
- * if the number is less than 0: is negative
- * Return:0
-  */
+* main - tests function that prints if integer is positive or negative
+* Return: 0
+*/
 int main(void)
 {
 	int n;
