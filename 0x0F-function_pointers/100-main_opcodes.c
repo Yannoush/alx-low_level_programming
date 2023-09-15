@@ -34,10 +34,10 @@ int main(int argc, char *argv[])
 	{
 		if (i == number_of_bytes - 1)
 		{
-			printf("%03hhx\n", array[i]);
+			printf("%02hhx\n", array[i]);
 			break;
 		}
-		printf("%03hhx", array[i]);
+		printf("%02hhx", array[i]);
 	}
 	return (0);
 }
